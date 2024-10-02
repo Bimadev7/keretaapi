@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.header p {
+    color: #666;
+}
+
+.date-selector {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.date-selector span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.train-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.train-header h3 {
+    font-size: 1rem;
+    color: #007bff;
+}
+
+.train-header p {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.train-details {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.train-info {
+    font-size: 0.9rem;
+}
+
+.train-info .time {
+    font-weight: bold;
+    display: block;
+}
+
+.duration {
+    margin: 5px 0;
+    color: #666;
+}
+
+.see-class {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: auto; /* Align to right */
+    text-align: right;
+}
+
+.see-class:hover {
+    text-decoration: underline;
+}
+
+.class-details {
+    display: none; /* Initially hidden */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.class-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.class-details ul li {
+    padding: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.2rem;
+    }
+
+    .date-selector {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .train-card {
+        padding: 10px;
+    }
+
+    .train-header h3 {
+        font-size: 0.9rem;
+    }
+
+    .train-header p {
+        font-size: 0.85rem;
+    }
+
+    .train-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .see-class {
+        margin-top: 10px;
+        font-size: 0.85rem;
+        align-self: flex-end; /* Align right in mobile layout */
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1rem;
+    }
+
+    .date-selector span {
+        font-size: 0.8rem;
+    }
+
+    .train-header h3 {
+        font-size: 0.85rem;
+    }
+
+    .train-header p {
+        font-size: 0.75rem;
+    }
+
+    .train-info {
+        font-size: 0.8rem;
+    }
+
+    .see-class {
+        font-size: 0.75rem;
+        align-self: flex-end; /* Align right on mobile */
+    }
+
+    
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>JATIBARANG (JTB) &rarr; JAKARTA</h1>
+            <p>Rab, 02 Okt 2024 - 1 Dewasa</p>
+        </header>
+
+        <nav class="date-selector">
+            <span>Rab, 02</span>
+            <span>Kam, 03</span>
+            <span>Jum, 04</span>
+        </nav>
+
+        <h2>Pilih Kereta Berangkat</h2>
+
+        <!-- Train Card 1 -->
+        <div class="train-card">
+            <div class="train-header">
+                <h3>MENOREH (225F)</h3>
+                <p>Harga tersedia mulai dari <strong>Rp 250.000</strong> /pax</p>
+            </div>
+            <div class="train-details">
+                <div class="train-info">
+                    <span class="time">12:00</span>
+                    <span>JATIBARANG (JTB)</span>
+                    <span class="duration">02j 15m</span>
+                    <span class="time">14:15</span>
+                    <span>JATINEGARA (JNG)</span>
+                </div>
+                <a href="#" class="see-class" onclick="toggleClassDetails(event, 'class-details-1')">Lihat Kelas</a>
+            </div>
+            <div id="class-details-1" class="class-details">
+                <h4>EKONOMI</h4>
+                <ul>
+                    <li>
+                        <div class="train-card">
+                            <div class="train-header">
+                                
+                                <h3>EKONOMI  (P)</h3>
+                                <p><strong>Rp 210.000</strong> /pax</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="train-card">
+                            <div class="train-header">
+                                <h3>EKONOMI  (CA)</h3>
+                                <p><strong>Rp 250.000</strong> /pax</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Train Card 2 -->
+        <div class="train-card">
+            <div class="train-header">
+                <h3>MENOREH (225F)</h3>
+                <p>Harga tersedia mulai dari <strong>Rp 200.000</strong> /pax</p>
+            </div>
+            <div class="train-details">
+                <div class="train-info">
+                    <span class="time">12:00</span>
+                    <span>JATIBARANG (JTB)</span>
+                    <span class="duration">02j 27m</span>
+                    <span class="time">14:27</span>
+                    <span>PASARSENEN (PSE)</span>
+                </div>
+                <a href="#" class="see-class" onclick="toggleClassDetails(event, 'class-details-2')">Lihat Kelas</a>
+            </div>
+            <div id="class-details-2" class="class-details">
+                <h4>EKONOMI</h4>
+                <ul>
+                    <li>
+                        <div class="train-card">
+                            <div class="train-header">
+                                <h3>EKONOMI (P)</h3>
+                                <p><strong>Rp 215.000</strong> /pax</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="train-card">
+                            <div class="train-header">
+                                <h3>EKONOMI (C)</h3>
+                                <p><strong>Rp 218.000</strong> /pax</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Train Card 3 -->
+        <div class="train-card">
+            <div class="train-header">
+                <h3>FAJAR UTAMA YK (141)</h3>
+                <p>Harga tersedia mulai dari <strong>Rp 180.000</strong> /pax</p>
+            </div>
+            <div class="train-details">
+                <div class="train-info">
+                    <span class="time">12:30</span>
+                    <span>JATIBARANG (JTB)</span>
+                    <span class="duration">02j 45m</span>
+                    <span class="time">15:15</span>
+                    <span>GAMBIR (GMR)</span>
+                </div>
+                <a href="#" class="see-class" onclick="toggleClassDetails(event, 'class-details-3')">Lihat Kelas</a>
+            </div>
+            <div id="class-details-3" class="class-details">
+                <h4>EKONOMI</h4>
+                <ul>
+                    <li>
+                        <div class="train-card">
+                            <div class="train-header">
+                                <h3>EKONOMI (P)</h3>
+                                <p><strong>Rp 180.000</strong> /pax</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="train-card">
+                            <div class="train-header">
+                                <h3>EKONOMI (C)</h3>
+                                <p><strong>Rp 180.000</strong> /pax</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Train Card 4 -->
+        <div class="train-card">
+            <div class="train-header">
+                <h3>MATARAM (89)</h3>
+                <p>Harga tersedia mulai dari <strong>Rp 180.000</strong> /pax</p>
+            </div>
+            <div class="train-details">
+                <div class="train-info">
+                    <span class="time">13:00</span>
+                    <span>JATIBARANG (JTB)</span>
+                    <span class="duration">02j 15m</span>
+                    <span class="time">15:15</span>
+                    <span>GAMBIR (GMR)</span>
+                </div>
+                <a href="#" class="see-class" onclick="toggleClassDetails(event, 'class-details-4')">Lihat Kelas</a>
+            </div>
+            <div id="class-details-4" class="class-details">
+                <h4>EKONOMI</h4>
+                <ul>
+                    <li>
+                        <div class="train-card">
+                            <div class="train-header">
+                                <h3>EKONOMI  (C)</h3>
+                                <p><strong>Rp 180.000</strong> /pax</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="train-card">
+                            <div class="train-header">
+                                <h3>EKONOMI  (CA)</h3>
+                                <p><strong>Rp 180.000</strong> /pax</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleClassDetails(event, classId) {
+            event.preventDefault();
+            var classDetails = document.getElementById(classId);
+            
+            // Toggle visibility
+            if (classDetails.style.display === "none" || classDetails.style.display === "") {
+                classDetails.style.display = "block";
+            } else {
+                classDetails.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
